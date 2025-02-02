@@ -29,6 +29,7 @@ function CommonForm({ formControls = [], handleSubmit, form, btnText }) {
                             type={controlItem.type}
                             {...field}
                             value={field.value}
+                            required
                             className="w-full rounded h-[50px] border-none text-black bg-gray-200 text-[16px] outline-none drop-shadow-sm transition-all duration-300 ease-in-out focus:bg-gray-100 focus:drop-shadow-lg focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0"
                           />
                         </FormControl>
@@ -36,6 +37,7 @@ function CommonForm({ formControls = [], handleSubmit, form, btnText }) {
                         <Select
                           value={field.value}
                           onValueChange={field.onChange}
+                          required
                         >
                           <FormControl>
                             <SelectTrigger className="w-full rounded h-[50px] border-none text-black bg-gray-200 text-[16px] outline-none drop-shadow-sm transition-all duration-300 ease-in-out focus:bg-gray-100 focus:drop-shadow-lg focus-visible:outline-none focus-visible:ring-0 focus-visible:ring-offset-0">

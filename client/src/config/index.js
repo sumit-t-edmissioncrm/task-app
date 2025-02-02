@@ -69,6 +69,7 @@ export const addNewTaskFormControls = [
     placeholder: "Enter title",
     label: "Title",
     componentType: "input",
+    required: true,
   },
   {
     id: "description",
@@ -76,6 +77,7 @@ export const addNewTaskFormControls = [
     placeholder: "Enter description",
     label: "Description",
     componentType: "input",
+    required: true,
   },
   {
     id: "status",
