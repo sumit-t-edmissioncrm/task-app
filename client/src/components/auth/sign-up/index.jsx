@@ -48,7 +48,7 @@ function SignUp() {
   };
 
   return (
-    <div className="flex items-center justify-center p-4">
+    <div className="flex items-center justify-center mt-5 p-4">
       <Card className="w-full max-w-md shadow-lg rounded-2xl">
         <CardHeader>
           <CardTitle className="text-center text-xl">Sign Up</CardTitle>
