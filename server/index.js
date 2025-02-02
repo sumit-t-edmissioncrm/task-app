@@ -4,6 +4,8 @@ const cookieParser = require("cookie-parser");
 
 const userRouter = require("./routes/user-routes");
 const taskRouter = require("./routes/task-routes");
+const dotenv = require("dotenv");
+dotenv.config();
 
 require("./database");
 const app = express();
