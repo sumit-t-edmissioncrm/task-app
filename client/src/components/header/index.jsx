@@ -28,12 +28,6 @@ function Header() {
             <Link className="text-black text-xl font-bold" to={"/tasks/list"}>
               Tasks
             </Link>
-            <Link
-              className="text-black text-xl font-bold"
-              to={"/tasks/scrum-board"}
-            >
-              Scrum Board
-            </Link>
           </div>
           <div>
             <LogOut
